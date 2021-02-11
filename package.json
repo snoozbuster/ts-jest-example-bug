@@ -1,0 +1,21 @@
+{
+  "name": "ts-jest-example",
+  "version": "0.0.1",
+  "description": "Bug repro for ts-jest",
+  "repository": "https://github.com/snoozbuster/ts-jest-example-bug",
+  "main": "index.js",
+  "scripts": {
+    "test:working": "vue-cli-service test:unit --config ./jest.working.config.js",
+    "test:failing": "vue-cli-service test:unit --config ./jest.failing.config.js"
+  },
+  "author": "Alex Van Liew",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-unit-jest": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.1",
+    "typescript": "^3.9.9"
+  }
+}
